@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38C5EBC61B2223710044BB0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5EBC51B2223710044BB0A /* AppDelegate.swift */; };
-		38C5EBC91B2223710044BB0A /* What_to_Wear_Today.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38C5EBC71B2223710044BB0A /* What_to_Wear_Today.xcdatamodeld */; };
-		38C5EBCB1B2223710044BB0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5EBCA1B2223710044BB0A /* ViewController.swift */; };
-		38C5EBCE1B2223710044BB0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C5EBCC1B2223710044BB0A /* Main.storyboard */; };
-		38C5EBD01B2223710044BB0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C5EBCF1B2223710044BB0A /* Images.xcassets */; };
-		38C5EBD31B2223710044BB0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C5EBD11B2223710044BB0A /* LaunchScreen.xib */; };
+		38210CBC1B285B6200CF741C /* ShowPairsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38210CBB1B285B6200CF741C /* ShowPairsViewController.swift */; };
+		38210CBF1B28DC6600CF741C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38210CBE1B28DC6600CF741C /* FBSDKShareKit.framework */; };
+		38210CC11B290DE700CF741C /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38210CC01B290DE700CF741C /* BookmarksViewController.swift */; };
+		38210CC31B29104400CF741C /* BookMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38210CC21B29104400CF741C /* BookMarkCell.swift */; };
+		38B574031B27FDCE001C17CA /* Cloth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B574021B27FDCE001C17CA /* Cloth.swift */; };
+		38B574051B281432001C17CA /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B574041B281432001C17CA /* Pair.swift */; };
+		38B574141B281917001C17CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B574081B281917001C17CA /* AppDelegate.swift */; };
+		38B574151B281917001C17CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B574091B281917001C17CA /* LaunchScreen.xib */; };
+		38B574161B281917001C17CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B5740B1B281917001C17CA /* Main.storyboard */; };
+		38B574171B281917001C17CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5740D1B281917001C17CA /* HomeViewController.swift */; };
+		38B574181B281917001C17CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B5740E1B281917001C17CA /* Images.xcassets */; };
+		38B574191B281917001C17CA /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5740F1B281917001C17CA /* ImageUtil.swift */; };
+		38B5741A1B281917001C17CA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38B574101B281917001C17CA /* Info.plist */; };
+		38B5741B1B281917001C17CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B574111B281917001C17CA /* ViewController.swift */; };
+		38B5741C1B281917001C17CA /* What_to_Wear_Today.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38B574121B281917001C17CA /* What_to_Wear_Today.xcdatamodeld */; };
+		38B574201B281B34001C17CA /* tShirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 38B5741E1B281B34001C17CA /* tShirt.png */; };
+		38B574211B281B34001C17CA /* jeans.png in Resources */ = {isa = PBXBuildFile; fileRef = 38B5741F1B281B34001C17CA /* jeans.png */; };
+		38B574241B281DAC001C17CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B574231B281DAC001C17CA /* Constants.swift */; };
+		38B574281B2823E2001C17CA /* ListClothesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B574271B2823E2001C17CA /* ListClothesViewController.swift */; };
+		38B5742A1B283FDE001C17CA /* ClothCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B574291B283FDE001C17CA /* ClothCell.swift */; };
 		38C5EBDF1B2223710044BB0A /* What_to_Wear_TodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5EBDE1B2223710044BB0A /* What_to_Wear_TodayTests.swift */; };
-		38C5EBF01B2226B60044BB0A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C5EBEC1B2226960044BB0A /* FBSDKCoreKit.framework */; };
-		38C5EBF11B2226B60044BB0A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C5EBED1B2226960044BB0A /* FBSDKLoginKit.framework */; };
+		38DD76621B2758160066C47C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DD76611B2758160066C47C /* MobileCoreServices.framework */; };
+		82550AC11B259946003B3C04 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B2D6391B24843E0058E551 /* FBSDKCoreKit.framework */; };
+		82550AC21B259946003B3C04 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B2D63A1B24843E0058E551 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,19 +44,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38210CBB1B285B6200CF741C /* ShowPairsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowPairsViewController.swift; sourceTree = "<group>"; };
+		38210CBE1B28DC6600CF741C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		38210CC01B290DE700CF741C /* BookmarksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		38210CC21B29104400CF741C /* BookMarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookMarkCell.swift; sourceTree = "<group>"; };
+		38B574021B27FDCE001C17CA /* Cloth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cloth.swift; path = ../Cloth.swift; sourceTree = "<group>"; };
+		38B574041B281432001C17CA /* Pair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pair.swift; path = ../Pair.swift; sourceTree = "<group>"; };
+		38B574081B281917001C17CA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38B5740A1B281917001C17CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38B5740C1B281917001C17CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38B5740D1B281917001C17CA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		38B5740E1B281917001C17CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38B5740F1B281917001C17CA /* ImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
+		38B574101B281917001C17CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B574111B281917001C17CA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38B574131B281917001C17CA /* What_to_Wear_Today.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = What_to_Wear_Today.xcdatamodel; sourceTree = "<group>"; };
+		38B5741E1B281B34001C17CA /* tShirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tShirt.png; sourceTree = "<group>"; };
+		38B5741F1B281B34001C17CA /* jeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeans.png; sourceTree = "<group>"; };
+		38B574231B281DAC001C17CA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		38B574271B2823E2001C17CA /* ListClothesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListClothesViewController.swift; sourceTree = "<group>"; };
+		38B574291B283FDE001C17CA /* ClothCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothCell.swift; sourceTree = "<group>"; };
 		38C5EBC01B2223710044BB0A /* What to Wear Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What to Wear Today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38C5EBC41B2223710044BB0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38C5EBC51B2223710044BB0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38C5EBC81B2223710044BB0A /* What_to_Wear_Today.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = What_to_Wear_Today.xcdatamodel; sourceTree = "<group>"; };
-		38C5EBCA1B2223710044BB0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		38C5EBCD1B2223710044BB0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		38C5EBCF1B2223710044BB0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		38C5EBD21B2223710044BB0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38C5EBD81B2223710044BB0A /* What to Wear TodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What to Wear TodayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C5EBDD1B2223710044BB0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38C5EBDE1B2223710044BB0A /* What_to_Wear_TodayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_to_Wear_TodayTests.swift; sourceTree = "<group>"; };
-		38C5EBEC1B2226960044BB0A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		38C5EBED1B2226960044BB0A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		38DD76611B2758160066C47C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6134930AEA29DC37B658885E /* Pods_What_to_Wear_Today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What_to_Wear_Today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B2D6391B24843E0058E551 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		82B2D63A1B24843E0058E551 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C5EBF01B2226B60044BB0A /* FBSDKCoreKit.framework in Frameworks */,
-				38C5EBF11B2226B60044BB0A /* FBSDKLoginKit.framework in Frameworks */,
+				38210CBF1B28DC6600CF741C /* FBSDKShareKit.framework in Frameworks */,
+				38DD76621B2758160066C47C /* MobileCoreServices.framework in Frameworks */,
+				82550AC11B259946003B3C04 /* FBSDKCoreKit.framework in Frameworks */,
+				82550AC21B259946003B3C04 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,14 +96,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38210CBD1B28AAE800CF741C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		38B574071B281917001C17CA /* What to Wear Today */ = {
+			isa = PBXGroup;
+			children = (
+				38210CBD1B28AAE800CF741C /* Views */,
+				38B574261B281E4F001C17CA /* Objects */,
+				38B574251B281E34001C17CA /* View Controllers */,
+				38B574221B281D98001C17CA /* Util */,
+				38B5741D1B281B21001C17CA /* Resources */,
+				38B574081B281917001C17CA /* AppDelegate.swift */,
+				38B574091B281917001C17CA /* LaunchScreen.xib */,
+				38B5740B1B281917001C17CA /* Main.storyboard */,
+				38B5740E1B281917001C17CA /* Images.xcassets */,
+				38B574101B281917001C17CA /* Info.plist */,
+				38B574121B281917001C17CA /* What_to_Wear_Today.xcdatamodeld */,
+			);
+			path = "What to Wear Today";
+			sourceTree = "<group>";
+		};
+		38B5741D1B281B21001C17CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38B5741E1B281B34001C17CA /* tShirt.png */,
+				38B5741F1B281B34001C17CA /* jeans.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		38B574221B281D98001C17CA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				38B5740F1B281917001C17CA /* ImageUtil.swift */,
+				38B574231B281DAC001C17CA /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		38B574251B281E34001C17CA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38B574111B281917001C17CA /* ViewController.swift */,
+				38B5740D1B281917001C17CA /* HomeViewController.swift */,
+				38B574271B2823E2001C17CA /* ListClothesViewController.swift */,
+				38210CBB1B285B6200CF741C /* ShowPairsViewController.swift */,
+				38210CC01B290DE700CF741C /* BookmarksViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		38B574261B281E4F001C17CA /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				38B574021B27FDCE001C17CA /* Cloth.swift */,
+				38B574041B281432001C17CA /* Pair.swift */,
+				38B574291B283FDE001C17CA /* ClothCell.swift */,
+				38210CC21B29104400CF741C /* BookMarkCell.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		38C5EBB71B2223710044BB0A = {
 			isa = PBXGroup;
 			children = (
-				38C5EBEC1B2226960044BB0A /* FBSDKCoreKit.framework */,
-				38C5EBED1B2226960044BB0A /* FBSDKLoginKit.framework */,
-				38C5EBC21B2223710044BB0A /* What to Wear Today */,
+				38B574071B281917001C17CA /* What to Wear Today */,
+				38DD76611B2758160066C47C /* MobileCoreServices.framework */,
+				82B2D6391B24843E0058E551 /* FBSDKCoreKit.framework */,
+				82B2D63A1B24843E0058E551 /* FBSDKLoginKit.framework */,
 				38C5EBDB1B2223710044BB0A /* What to Wear TodayTests */,
 				38C5EBC11B2223710044BB0A /* Products */,
+				68A9DEC745E7FD40F8B25D9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,28 +182,6 @@
 				38C5EBD81B2223710044BB0A /* What to Wear TodayTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		38C5EBC21B2223710044BB0A /* What to Wear Today */ = {
-			isa = PBXGroup;
-			children = (
-				38C5EBC51B2223710044BB0A /* AppDelegate.swift */,
-				38C5EBCA1B2223710044BB0A /* ViewController.swift */,
-				38C5EBCC1B2223710044BB0A /* Main.storyboard */,
-				38C5EBCF1B2223710044BB0A /* Images.xcassets */,
-				38C5EBD11B2223710044BB0A /* LaunchScreen.xib */,
-				38C5EBC71B2223710044BB0A /* What_to_Wear_Today.xcdatamodeld */,
-				38C5EBC31B2223710044BB0A /* Supporting Files */,
-			);
-			path = "What to Wear Today";
-			sourceTree = "<group>";
-		};
-		38C5EBC31B2223710044BB0A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				38C5EBC41B2223710044BB0A /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		38C5EBDB1B2223710044BB0A /* What to Wear TodayTests */ = {
@@ -121,6 +199,15 @@
 				38C5EBDD1B2223710044BB0A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68A9DEC745E7FD40F8B25D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38210CBE1B28DC6600CF741C /* FBSDKShareKit.framework */,
+				6134930AEA29DC37B658885E /* Pods_What_to_Wear_Today.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +259,7 @@
 				TargetAttributes = {
 					38C5EBBF1B2223710044BB0A = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 86553ZC3T4;
 					};
 					38C5EBD71B2223710044BB0A = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -203,9 +291,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C5EBCE1B2223710044BB0A /* Main.storyboard in Resources */,
-				38C5EBD31B2223710044BB0A /* LaunchScreen.xib in Resources */,
-				38C5EBD01B2223710044BB0A /* Images.xcassets in Resources */,
+				38B5741A1B281917001C17CA /* Info.plist in Resources */,
+				38B574181B281917001C17CA /* Images.xcassets in Resources */,
+				38B574151B281917001C17CA /* LaunchScreen.xib in Resources */,
+				38B574211B281B34001C17CA /* jeans.png in Resources */,
+				38B574201B281B34001C17CA /* tShirt.png in Resources */,
+				38B574161B281917001C17CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +314,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C5EBCB1B2223710044BB0A /* ViewController.swift in Sources */,
-				38C5EBC61B2223710044BB0A /* AppDelegate.swift in Sources */,
-				38C5EBC91B2223710044BB0A /* What_to_Wear_Today.xcdatamodeld in Sources */,
+				38210CC11B290DE700CF741C /* BookmarksViewController.swift in Sources */,
+				38B5741B1B281917001C17CA /* ViewController.swift in Sources */,
+				38B574281B2823E2001C17CA /* ListClothesViewController.swift in Sources */,
+				38B574141B281917001C17CA /* AppDelegate.swift in Sources */,
+				38B574031B27FDCE001C17CA /* Cloth.swift in Sources */,
+				38B5742A1B283FDE001C17CA /* ClothCell.swift in Sources */,
+				38B574051B281432001C17CA /* Pair.swift in Sources */,
+				38B574171B281917001C17CA /* HomeViewController.swift in Sources */,
+				38210CC31B29104400CF741C /* BookMarkCell.swift in Sources */,
+				38B5741C1B281917001C17CA /* What_to_Wear_Today.xcdatamodeld in Sources */,
+				38210CBC1B285B6200CF741C /* ShowPairsViewController.swift in Sources */,
+				38B574191B281917001C17CA /* ImageUtil.swift in Sources */,
+				38B574241B281DAC001C17CA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,20 +349,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		38C5EBCC1B2223710044BB0A /* Main.storyboard */ = {
+		38B574091B281917001C17CA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				38C5EBCD1B2223710044BB0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		38C5EBD11B2223710044BB0A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38C5EBD21B2223710044BB0A /* Base */,
+				38B5740A1B281917001C17CA /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		38B5740B1B281917001C17CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B5740C1B281917001C17CA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -354,9 +455,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/akankshasharma/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+					/Users/akanksha/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = "What to Wear Today/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -368,9 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vivek Chauhan (6SPXDXZBUW)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/akankshasharma/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+					/Users/akanksha/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = "What to Wear Today/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -431,6 +539,7 @@
 				38C5EBE41B2223710044BB0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38C5EBE51B2223710044BB0A /* Build configuration list for PBXNativeTarget "What to Wear TodayTests" */ = {
 			isa = XCConfigurationList;
@@ -439,16 +548,17 @@
 				38C5EBE71B2223710044BB0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		38C5EBC71B2223710044BB0A /* What_to_Wear_Today.xcdatamodeld */ = {
+		38B574121B281917001C17CA /* What_to_Wear_Today.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				38C5EBC81B2223710044BB0A /* What_to_Wear_Today.xcdatamodel */,
+				38B574131B281917001C17CA /* What_to_Wear_Today.xcdatamodel */,
 			);
-			currentVersion = 38C5EBC81B2223710044BB0A /* What_to_Wear_Today.xcdatamodel */;
+			currentVersion = 38B574131B281917001C17CA /* What_to_Wear_Today.xcdatamodel */;
 			path = What_to_Wear_Today.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -29,6 +29,7 @@
 		38B5742A1B283FDE001C17CA /* ClothCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B574291B283FDE001C17CA /* ClothCell.swift */; };
 		38C5EBDF1B2223710044BB0A /* What_to_Wear_TodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5EBDE1B2223710044BB0A /* What_to_Wear_TodayTests.swift */; };
 		38DD76621B2758160066C47C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DD76611B2758160066C47C /* MobileCoreServices.framework */; };
+		820166D41B29501F00E2230E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820166D31B29501F00E2230E /* FBSDKShareKit.framework */; };
 		82550AC11B259946003B3C04 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B2D6391B24843E0058E551 /* FBSDKCoreKit.framework */; };
 		82550AC21B259946003B3C04 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B2D63A1B24843E0058E551 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,7 @@
 		38C5EBDE1B2223710044BB0A /* What_to_Wear_TodayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_to_Wear_TodayTests.swift; sourceTree = "<group>"; };
 		38DD76611B2758160066C47C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6134930AEA29DC37B658885E /* Pods_What_to_Wear_Today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What_to_Wear_Today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820166D31B29501F00E2230E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		82B2D6391B24843E0058E551 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		82B2D63A1B24843E0058E551 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 			files = (
 				38210CBF1B28DC6600CF741C /* FBSDKShareKit.framework in Frameworks */,
 				38DD76621B2758160066C47C /* MobileCoreServices.framework in Frameworks */,
+				820166D41B29501F00E2230E /* FBSDKShareKit.framework in Frameworks */,
 				82550AC11B259946003B3C04 /* FBSDKCoreKit.framework in Frameworks */,
 				82550AC21B259946003B3C04 /* FBSDKLoginKit.framework in Frameworks */,
 			);
@@ -165,6 +168,7 @@
 		38C5EBB71B2223710044BB0A = {
 			isa = PBXGroup;
 			children = (
+				820166D31B29501F00E2230E /* FBSDKShareKit.framework */,
 				38B574071B281917001C17CA /* What to Wear Today */,
 				38DD76611B2758160066C47C /* MobileCoreServices.framework */,
 				82B2D6391B24843E0058E551 /* FBSDKCoreKit.framework */,
